@@ -1,0 +1,39 @@
+server:
+  port: 8080
+mybatis:
+  mapper-locations: # 所有的mapper映射文件
+  - classpath:mapping/*.xml
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource # 配置当前要使用的数据源的操作类型
+    driver-class-name: com.mysql.cj.jdbc.Driver # 配置MySQL的驱动程序类
+    url: jdbc:mysql://10.66.2.5:3306/mks?serverTimezone=GMT%2B8 # 数据库连接地址
+    username: root # 数据库用户名
+    password: windawn@hnzz # 数据库连接密码
+  application:
+    name: mksd-prod
+
+#  security:
+#    user:
+#      name: admin  # 认证用户名
+#      password: windawn  # 认证密码
+#      roles:
+#      - USER # 授权角色
+eureka:
+  client: # 客户端进行Eureka注册的配置
+    service-url:
+      defaultZone: http://admin:windawn@eureka1:7001/eureka,http://admin:windawn@eureka2:7002/eureka,http://admin:windawn@eureka3:7003/eureka
+  instance:
+    instance-id: mksd-prod
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 2 # 设置心跳的时间间隔（默认是30秒）
+    lease-expiration-duration-in-seconds: 5  # 如果现在超过了5秒的间隔（默认是90秒）
+info:
+  app.name: mksd-prod
+  company.name: com.windawn
+  build.artifactId: $project.artifactId$
+  build.modelVersion: $project.modelVersion$
+
+
+
+
