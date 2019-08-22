@@ -9,11 +9,13 @@
       <module>mksd-prod2</module>
       <module>mksd-prod3</module>
       <module>mksd-consumer</module>
+      <module>mksd-consumer-feign</module>
       <module>mksd-consumer-ribbon</module>
       <module>mksd-security</module>
       <module>mksd-eureka</module>
       <module>mksd-eureka2</module>
       <module>mksd-eureka3</module>
+        <module>mksd-service</module>
     </modules>
     <parent>
     <groupId>org.springframework.boot</groupId>
