@@ -8,23 +8,35 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mksd-api" />
         <module name="mksd-consumer" />
+        <module name="mksd-consumer-ribbon" />
         <module name="mksd-eureka" />
         <module name="mksd-eureka2" />
         <module name="mksd-eureka3" />
         <module name="mksd-prod" />
+        <module name="mksd-prod2" />
+        <module name="mksd-prod3" />
         <module name="mksd-security" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mksd-prod (1)" target="1.8" />
+      <module name="mksd-prod (2)" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mksd" options="" />
       <module name="mksd-api" options="-parameters" />
       <module name="mksd-consumer" options="-parameters" />
+      <module name="mksd-consumer-ribbon" options="-parameters" />
       <module name="mksd-eureka" options="-parameters" />
       <module name="mksd-eureka2" options="-parameters" />
       <module name="mksd-eureka3" options="-parameters" />
       <module name="mksd-prod" options="-parameters" />
+      <module name="mksd-prod (1)" options="-parameters" />
+      <module name="mksd-prod (2)" options="-parameters" />
+      <module name="mksd-prod2" options="-parameters" />
+      <module name="mksd-prod3" options="-parameters" />
       <module name="mksd-security" options="-parameters" />
     </option>
   </component>

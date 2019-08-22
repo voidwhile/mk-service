@@ -4,10 +4,15 @@
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-consumer-ribbon" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-eureka2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-eureka3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-prod" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-prod2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-prod2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-prod3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-prod3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-security" charset="UTF-8" />
   </component>
 </project>

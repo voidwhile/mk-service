@@ -14,9 +14,9 @@ import java.util.List;
 @RestController
 @RequestMapping("/consumer")
 public class ConsumerProductCtrl {
-    public static final String PROD_GET_URL = "http://127.0.0.1:8080/cmd/get/";
-    public static final String PROD_LIST_URL = "http://127.0.0.1:8080/cmd/list/";
-    public static final String PROD_ADD_URL = "http://127.0.0.1:8080/cmd/add/";
+    public static final String PROD_GET_URL = "http://MKSD-PROD/cmd/get/";
+    public static final String PROD_LIST_URL = "http://MKSD-PROD/cmd/list/";
+    public static final String PROD_ADD_URL = "http://MKSD-PROD/cmd/add/";
 
     @Resource
     private RestTemplate restTemplate;
