@@ -8,19 +8,25 @@
       <module>mksd-prod</module>
       <module>mksd-prod2</module>
       <module>mksd-prod3</module>
+      <module>mksd-prod-hystrix</module>
       <module>mksd-consumer</module>
       <module>mksd-consumer-feign</module>
+      <module>mksd-consumer-hystrix</module>
       <module>mksd-consumer-ribbon</module>
       <module>mksd-security</module>
       <module>mksd-eureka</module>
       <module>mksd-eureka2</module>
       <module>mksd-eureka3</module>
-        <module>mksd-service</module>
+      <module>mksd-service</module>
+      <module>mksd-consumer-hystrix-dashboard</module>
+        <module>mksd-prod-user-hystrix</module>
+        <module>mksd-consumer-turbine</module>
+        <module>mksd-zuul-gateway</module>
     </modules>
-    <parent>
+  <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.1.7.RELEASE</version>
+    <version>2.0.7.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
   <groupId>com.windawn</groupId>
@@ -51,7 +57,7 @@
       <dependency> <!-- SpringCloud离不开SpringBoot，所以必须要配置此依赖包 -->
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-dependencies</artifactId>
-        <version>2.1.2.RELEASE</version>
+        <version>2.0.7.RELEASE</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>

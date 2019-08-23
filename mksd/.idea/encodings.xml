@@ -5,16 +5,22 @@
     <file url="file://$PROJECT_DIR$/mksd-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-consumer-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-consumer-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-consumer-hystrix-dashboard" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-consumer-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-consumer-turbine" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-eureka2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-eureka3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-prod" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-prod-h" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-prod-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-prod-user-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-prod-user-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-prod2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mksd-prod2" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/mksd-prod3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-prod3" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-security" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mksd-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mksd-zuul-gateway" charset="UTF-8" />
   </component>
 </project>
