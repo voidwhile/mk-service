@@ -12,7 +12,11 @@ spring:
     name:  mksd-zuul-gateway
 zuul:
   routes:
-    mksd-prod-users:  /users-proxy/**
-    mksd-prod:  /prod-proxy/**
+    users:
+      path: /users-proxy/**
+      serviceId: mksd-prod-users
+    prod:
+      path: /prod-proxy/**
+      serviceId: mksd-prod
   ignored-services:
     "*"
